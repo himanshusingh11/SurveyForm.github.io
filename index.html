@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  shrink-to-fit=no">
+    <title>HTML FORM</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .heading {
+            text-align: center;
+            font-family: sans-serif;
+            font-style: normal;
+        }
+        
+        #body {
+            background: #f0f0f0;
+        }
+        
+        #table {
+            background-color: azure;
+            font-weight: lighter;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        #name {
+            margin-left: 400px;
+        }
+        
+        #button {
+            align-content: center;
+            background-color: darkblue;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+
+<body id="body">
+    <form>
+        <div class="heading">
+            <h1> Survey Form </h1>
+        </div>
+        <table id="table" align="center" cellspacing="20">
+            <tr>
+                <div id="name">
+                    <td align="center">
+                        Name :
+                    </td>
+                </div>
+                <td>
+                    <input type="text" placeholder="Enter your Name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    Email :
+
+                    <td>
+                        <input type="email" placeholder="Enter your Email" required>
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Mobile Number :
+
+                    <td>
+                        <input type="number" placeholder="Enter Mobile Number" required>
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Age :
+
+                    <td>
+                        <input type="number" placeholder="Age" required>
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Gender :
+
+                    <td>
+                        <input type="radio" name="Gender">Male
+                        <br>
+                        <input type="radio" name="Gender">Female
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Which best describes your current role?
+
+                    <td>
+                        <select>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Other</option>
+                  </select>
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    How likely is that you would recommend <br> a friend?
+
+                    <td>
+                        <input type="radio" name="How likely is that you would recommend 
+                  a friend?">Definitely
+                        <br>
+                        <input type="radio" name="How likely is that you would recommend 
+                  a friend?">Maybe
+                        <br>
+                        <input type="radio" name="How likely is that you would recommend 
+                  a friend?">Not Sure
+
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    What do you like most in :
+
+                    <td>
+                        <select>
+                      <option>Select an option</option>
+                  <option> Web Development  </option>
+                  <option>Coding</option>
+                  <option>Other Activities</option>
+                </select>
+                    </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Things that should be improved in the future <br>(Check all that apply) :
+
+                    <td>
+                        <input type="checkbox">Front-End
+                        <br>
+                        <input type="checkbox">Back-End
+                        <br>
+                        <input type="checkbox">Data-Visualisation
+
+                    </td>
+            </tr>
+            <div class="button1" <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" id="button" value="Submit">
+            </div>
+
+
+
+
+
+        </table>
+    </form>
+
+</body>
+
+</html>
